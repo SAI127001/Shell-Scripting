@@ -19,3 +19,25 @@ else
 fi
 
 # Greater than equal to ---> -ge
+
+if [ $a -ge $c ]; then
+	echo "$a is greater than or equal to $c"
+else
+	echo "$a is not greater than or equal to $c"
+fi
+
+# Less than ---> -lt
+
+if [ $b -lt $c ]; then
+	echo "$b is less than $c"
+else
+	echo "$b is greater than $c"
+fi
+
+#Less than or equal to ---> -le
+
+if [ $a -le $c ]; then
+	echo "$a is less than or equal to $c"
+else
+	echo "$a is not less than or equal to $c"
+fi
